@@ -8,7 +8,7 @@
 
 git status
 
-增加文件或目录：
+增加或者修改文件或目录：
 
 git add note/basic/
 
@@ -16,3 +16,6 @@ git add note/basic/
 
 git commit
 
+提交修改至github
+
+ git push -u -f origin main
