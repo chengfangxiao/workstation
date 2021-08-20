@@ -1,0 +1,11 @@
+#!/bin/sh
+MAIN_PROCESS=CALC_MAIN
+SON_PROCESS=CALC_SON_MUL
+
+OBJECT:${MAIN_PROCESS} ${SON_PROCESS}
+
+${MAIN_PROCESS}:
+	gcc -o ${MAIN_PROCESS} calc_main.c
+
+${SON_PROCESS}:
+	gcc -o ${SON_PROCESS} calc_son_mul.c
