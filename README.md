@@ -19,3 +19,6 @@ git commit
 提交修改至github
 
  git push -u -f origin main
+
+运行一下命令缓存输入的用户名和密码：
+git config --global credential.helper wincred
