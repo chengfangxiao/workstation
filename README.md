@@ -22,3 +22,11 @@ git commit
 
 运行一下命令缓存输入的用户名和密码：
 git config --global credential.helper wincred
+
+如果报错OpenSSL SSL_read: Connection was reset, errno 10054
+可使用解除SSL认证
+git config --global http.sslVerify "false"
+
+新建一个分支 可使用
+git checkout -b [branchname]
+ git push -u -f origin [branchname]
