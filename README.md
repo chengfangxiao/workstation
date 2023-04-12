@@ -2,7 +2,7 @@
 
 拉取文件：
 
- git push -u -f origin main
+ git pull origin
 
 查看本地仓库文件状态：
 
